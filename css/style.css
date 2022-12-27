@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #EE4C82    , #B91414 );
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+}
+.submit-btn {
+    
+}
+
+.list__element {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 20px;
+  padding: 10px;
+}
+
+p {
+  margin: 0px;
+  margin-right: 20px;
+}
+
+.remove {
+  margin-left: 3px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA50lEQVR4nO2UrQoCQRSFv6jNV3DLRoPRZPOJ1AdQMBotFsGiBouYFUHZZPQVRBCsiqxcOMoyuuuyGvfAgcu5d74Z9mcgXkVgAFyAUL4oK5BBXUGmQE+eKetkAe6B7Yd8p95XtYFzxHfg6mRnZXcna7mwinYNM3ovxkvNH2ChbIyXSoCn409UP+0DVdl3ehOt8cR40wkYqm4ANdV1GWXWQ7OnpBcTBR6AueqNjDLr5cDPyp8hf/1sAmCseimjLEgLPAKjpAFHNmtrYmWnsFu5H7lU42wzNrtIAtpPvgZuKW4Xm1kB5SjhASXWonRz46LXAAAAAElFTkSuQmCC");
+   width: 20px;
+  height: 20px;
+  border-radius: 2px;
+ border: none;
+   background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+}
+.done {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+border: none;
+
+  margin-right: 9px;
+}
+.checked {
+    /*background-color: #60A4E2;*/
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*background-image: url('https://martadomzalska.github.io/goit-markup-hw-08/images/Vector.svg');*/
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVR4nN3U0Q0BQRAA0CdCCU4FSvApJOqgAzQgogSa8KUHBajHjxxyCYmEO3t364NJ5m/3ZXcmM/xDdDHCODCzs8kndIEzriUzuzMveum5AvqMd97BgxroIzPjJYYR4GEMOMUax5hwiglaOMSCU0zRxC5WKdICNAi+oIdtzvf3dZq3QgObQLRUKZZ3vB+Alq7xEu0AtFLzTnUGZPCtkU6+tYTcV1/VtTnzIZIKiz73pb8TN1uW9q1l7s/LAAAAAElFTkSuQmCC");
+}
+.done-task {
+    text-decoration: line-through;
+}
