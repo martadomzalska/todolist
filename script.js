@@ -6,7 +6,7 @@ const button = form.querySelector("button");
 form.addEventListener("submit", (ev) => {
   ev.preventDefault();
   list.insertAdjacentHTML(
-    "beforeend",
+    "afterbegin",
     `<li class="list__element">
          <p> ${input.value} </p>
         <div>
